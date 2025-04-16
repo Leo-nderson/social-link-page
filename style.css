@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+    margin: 0;
+}
+
+@font-face {
+    font-family:'Inter';
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.main-content{
+   color: hsl(0, 0%, 100%);
+   width: 350px;
+   font-family: 'Inter';
+   font-weight: 400;
+   background-color: hsl(0, 0%, 12%);
+   border: 5px solid hsl(0, 0%, 12%);
+   border-radius: 8px;
+} 
+
+.avatar{
+    border-radius: 50%;
+    height: 70px;
+}
+
+.content{
+    justify-items: center;
+}
+
+h1{
+    margin-bottom: 5px;
+    font-size: 1.5em;
+}
+
+.header>p{
+    color: hsl(75, 94%, 57%);
+    margin-top: 0px;
+}
+
+
+.content p{
+    font-size: 14px;
+}
+
+.content-section>.items{
+    display: block;
+    background-color: hsl(0, 0%, 20%);
+    height: 40px;
+    width: 80%;
+    text-align: center;
+    align-content: center;
+    border: 5px solid hsl(0, 0%, 12%);
+    border-radius: 10px;
+}
+
+@media (max-width:600px) {
+    .main-content{
+        width: 300px;
+        min-width: 280px;
+    } 
+
+    .content-section p{
+        font-size: 12px;
+    }
+
+}
+
+
