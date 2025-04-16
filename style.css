@@ -34,15 +34,13 @@ h1{
     font-size: 1.5em;
 }
 
+p{
+    font-size: 14px;
+}
+
 .header>p{
     color: hsl(75, 94%, 57%);
     margin-top: 0px;
-}
-
-
-.content , .header p{
-    font-size: 14px;
-   
 }
 
 .content-section>.items{
