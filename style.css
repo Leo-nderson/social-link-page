@@ -17,6 +17,7 @@ body{
    width: 350px;
    font-family: 'Inter';
    font-weight: 400;
+   text-align: center;
    background-color: hsl(0, 0%, 12%);
    border: 5px solid hsl(0, 0%, 12%);
    border-radius: 8px;
@@ -27,9 +28,6 @@ body{
     height: 70px;
 }
 
-.content{
-    justify-items: center;
-}
 
 h1{
     margin-bottom: 5px;
@@ -42,8 +40,9 @@ h1{
 }
 
 
-.content p{
+.content , .header p{
     font-size: 14px;
+   
 }
 
 .content-section>.items{
@@ -51,6 +50,7 @@ h1{
     background-color: hsl(0, 0%, 20%);
     height: 40px;
     width: 80%;
+    margin: auto;
     text-align: center;
     align-content: center;
     border: 5px solid hsl(0, 0%, 12%);
